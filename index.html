@@ -93,19 +93,34 @@
     <p style="text-align: center;">To use the app, simply select a photo or video from your library, and adjust the "Red gain adjustment" and "Exposure adjustment" sliders to your liking. Once you've adjusted those items, you can then save the newly adjusted photo or video to your library (this will create a new photo/video rather than update your original). Here is an example using a video:</p>
     <p>&nbsp;</p>
 
-    <img src="resources/searealdemo-1.gif" alt="searealdemo" style="display: block; margin-left: auto; margin-right: auto; width: 250px;">
+    <img src="resources/searealdemo.gif" alt="searealdemo" style="display: block; margin-left: auto; margin-right: auto; width: 250px;">
 
     <br>
-    <h1 style="color: #5e9ca0; text-align: center;">App issues & other things to be aware of</h1>
-    <p>&nbsp;</p>
+    <h1 style="color: #5e9ca0; text-align: center;">FAQ</h1>
      <ol type="1">
-      <li>1. If the progress bar for a video conversion stops progressing altogether, you might need to close the app and restart your iPhone. This is a bug that we are still troubleshooting.</li>
+      <li>
+        Q: "When trying to save a color corrected video to my library, why has the progress bar stopped moving?"
+        <br>
+        A: This is an infrequent bug that we are still troubleshooting. For now, you might need to close the app and restart your iPhone if this happens.
+      </li>
       <br>
-      <li>2. For photos and videos that don't already lack sufficient red color, the "Red gain adjustment" slider bar might have zero noticeable effect.</li>
+      <li>
+        Q: "Why does this app's color correction work better from some photos/videos than others?"
+        <br>
+        A: This app works best with smaller clips of ***underwater*** footage that were taken at a consistent depth & exposure. For longer videos, or videos in which the underwater depth or camera exposure were changing throughout the filming of the video, this app won't work as well. Additionally, for photos/videos taken above water, or for underwater footage that has already been color corrected, the results might look strange. Lastly, note that for videos, this app uses the first few frames of a video to determine how best to color correct it; if the first few frames of a video are not representative in color of the rest of the video, then results might not look as good.
+      </li>
       <br>
-      <li>3. This app works best with smaller clips of footage that were taken at a consistent depth underwater. For longer videos, or videos in which the underwater depth was changing throughout the filming of the video, this app won't work as well.</li>
+      <li>
+        Q: "Why can't I find my color corrected photos & videos in my photo library, or why do some photos/videos show up further back in my library?"
+        <br>    
+        A: Currently, this app preserves any metadata associated with a photo/video. Not all photos/videos have metadata, but if you color correct one that has metadata that contains a creation date, then that date will be carried over to your newly corrected photo/video (and would therefore show up in your library by its date).
+      </li>
       <br>
-      <li>4. Currently, SeaReal is not able to preserve original photo/video metadata when creating color-corrected photos/videos. This means that any newly created photos/videos created by this app will not have any of the date/location/etc. data of the original photo. If people are interested in this feature, we will work to add it in.</li>
+      <li>
+        Q: "Why is this app slow when scrolling through my photo library?"
+        <br>
+        A: This app uses some newer developer tools created by Apple that made it easier to build this app, but that yield slightly worse performance under certain circumstances. This will hopefully improve in the future, but for now, we recommend granting SeaReal access to a smaller number of photos/videos if you're encountering this issue.
+      </li>
     </ol>
     <br>
     <p>To report an issue, contact <a class="link" href="mailto:searealapp@gmail.com">searealapp@gmail.com</a>, and we will do our best to reply.</p>
