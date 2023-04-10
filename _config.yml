@@ -1,3 +1,5 @@
 # Redirects
 redirects:
+  - /private-policy/ : /private-policy.html
   - /private-policy : /private-policy.html
+  - /private-policy.html : /private-policy/
