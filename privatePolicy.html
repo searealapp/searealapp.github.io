@@ -10,25 +10,56 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>SeaReal</title>
+
+    <style>
+
+          .navbar-title {
+        font-size: 24px;
+        font-weight: bold;
+        line-height: 1;
+        color: white;
+    }
+
+
+      @media (max-width: 767px) {
+          .navbar-text {
+              display: none;
+          }
+      }
+
+          .navbar-text {
+        font-size: 12px;
+        font-weight: normal;
+        text-transform: none;
+        color: white;
+        margin-top: 3px;
+        line-height: 1;
+        padding-left: 4px;
+    }
+    </style>
 </head>
 
 <header class="header">
   <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
     <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                       <span class="sr-only">Toggle navigation</span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
                       <span class="icon-bar"></span>
-                  </button>
-      </div>
+                    </button>
+                    <div class="navbar-title" style="padding-top:5px;">
+                        <img src="resources/octopus-favicon.png" alt="SeaReal Logo" height="18" s> SeaReal
+                    </div>
+                    <div class="navbar-text" style="color:white;">Underwater Color Correction for iOS</div>
+                </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="privatePolicy.html">Private Policy</a></li>
+        <ul class="nav navbar-nav navbar-right">
+                    <li><a style="color:white;" href="index.html">Home</a></li>
+                    <li><a style="color:white;" href="privatePolicy.html">Private Policy</a></li>
         </ul>
       </div>
     </div>
@@ -37,7 +68,7 @@
 
 <div class="privatePolicyDiv">
     <!-- #######  HEY, I AM THE SOURCE EDITOR! #########-->
-    <h1 style="color: #5e9ca0; text-align: center;">SeaReal Privacy Policy</h1>
+    <h1 style="color: #5e9ca0; text-align: center;">Privacy Policy</h1>
     <p>&nbsp;</p>
     <h2 style="color: #2e6c80;">Overview</h2>
     <br>

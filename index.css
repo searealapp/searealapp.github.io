@@ -1,5 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
 
+
+.navbar-title {
+  font-size: 2em;
+  color: #FFF;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+  .navbar-title {
+    float: left;
+    margin-right: 10px;
+    margin-top: 8px;
+  }
+}
+
+@media (min-width: 768px) {
+  .navbar-title {
+    margin-top: 0px;
+  }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,9 +36,9 @@ li {
     list-style: none;
 }
 
-a {
+/*a {
     text-decoration: none;
-}
+}*/
 
 .header{
     border-bottom: 1px solid #E2E8F0;
@@ -27,6 +49,8 @@ a {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
+    background-color: rgba(0, 0, 0, 0.0);
+    line-height: 50px; /* add this line */
 }
 
 .navbar a {
@@ -45,6 +69,7 @@ a {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #101010;
+
 }
 
 .nav-menu {
@@ -55,6 +80,11 @@ a {
 
 .nav-item {
     margin-left: 5rem;
+}
+
+.navbar-nav > li > a {
+  font-size: 20px;
+  color: white;
 }
 
 .nav-link{
