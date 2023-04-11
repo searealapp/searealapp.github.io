@@ -171,6 +171,15 @@ footer {
   text-align: center;
 }
 
+.footer2 {
+  position: relative;
+  padding-top: 100px;
+/*  bottom: 0;*/
+  width: 100%;
+/*  background-color: #f5f5f5;*/
+  text-align: center;
+}
+
 #examples {
   margin-bottom: 80px; /* adjust as needed */
 }
@@ -326,6 +335,15 @@ align-self: stretch;
   footer {
       position: relative;
       padding-top: 850px;
+    /*  bottom: 0;*/
+      width: 100%;
+    /*  background-color: #f5f5f5;*/
+      text-align: center;
+    }
+
+  .footer2 {
+      position: relative;
+      padding-top: 100px;
     /*  bottom: 0;*/
       width: 100%;
     /*  background-color: #f5f5f5;*/

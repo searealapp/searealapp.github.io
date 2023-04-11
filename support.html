@@ -70,11 +70,11 @@
 
 	    <div class="privatePolicyDiv2" style="padding-left: 30px; padding-right: 30px;">
         <br>
-        <h1 style="color: #5e9ca0; text-align: center;">FAQ</h1>
+        <h1 style="color: #5e9ca0; text-align: center; padding-bottom: 15px;">FAQ</h1>
         <ol type="1">
             <li>
                 Q: "Why does this app's color correction work better from some photos/videos than others?"
-                <br> A: This app works best with smaller clips of underwater footage that were taken at a consistent depth & exposure. For longer videos, or videos in which the underwater depth or camera exposure were changing throughout the filming of the video, this app won't work as well (even with the 'Adaptive Mode' option). Additionally, for photos/videos taken above water, or for underwater footage that has already been color corrected or edited into a montage video, the results might look strange.
+                <br> A: This app works best with smaller clips of unedited <b>underwater</b> footage that were taken at a consistent depth & exposure. For longer videos, or videos in which the underwater depth or camera exposure were changing throughout the filming of the video, this app won't work as well (even with the 'Adaptive Mode' option). Additionally, for photos/videos taken above water, or for underwater footage that has already been edited, the results might look strange.
             </li>
             <br>
             <li>
@@ -84,7 +84,17 @@
             <br>
             <li>
                 Q: "What is 'Adaptive Mode'?"
-                <br> A: When 'Adaptive' mode is on, the color correction logic for a given frame is determined by the most recent frames that came before it. Generally speaking, this option might be better for videos that a) Are longer in duration, b) Contain transitions (e.g. fade in from black), or c) Contain clips from different dives. When 'Adaptive' mode is off, the color correction logic for a given frame is determined by the first few frames of the video. Generally speaking, this option might be better for videos that a) Are shorter in duration, and b) Have colors, light exposure, and depth (at which the footage was taken) that are mostly consistent throughout its duration
+                <br> A: When 'Adaptive' mode is on, the color correction logic for a given frame is determined by the most recent frames that came before it. Generally speaking, this option might be better for videos that a) Are longer in duration, b) Contain transitions (e.g. fade in from black), or c) Contain clips from different dives. When 'Adaptive' mode is off, the color correction logic for a given frame is determined by the first few frames of the video. Generally speaking, this option might be better for videos that a) Are shorter in duration, and b) Have colors, light exposure, and depth (at which the footage was taken) that are mostly consistent throughout its duration.
+            </li>
+            <br>
+            <li>
+                Q: "Why are my color corrected photos & videos sometimes smaller or larger in file size than the original photo/video they came from?"
+                <br> A: This app uses the highest quality settings that Apple seems to allow for exporting photos and videos, resulting in variations in file size. For example, HEVC-encoded videos exported with our app may have a smaller file size due to the preset's efficient compression algorithm. Also, color correction can sometimes increase the amount of visual information and result in larger file sizes. The resulting file size depends on factors like resolution and compression settings, and it's not always possible to achieve the same file size as the input file. Ultimately, we strive to maintain the highest quality while optimizing the file size based on the available settings.
+            </li>
+            <br>
+            <li>
+                Q: "Why doesn't this app support more output file types for my color corrected photos & videos?"
+                <br> A: There are a lot of image file formats that exist, and it's time consuming to invest the development time and ongoing testing needed in order to support more than just the most popular formats. That said, we're open to adding additional support in the future if we see interest from SeaReal users!
             </li>
             <br>
             <li>
@@ -98,7 +108,7 @@
     </div>
 </div>
 
-    <footer style="padding-left: 50px; padding-right: 50px; position: relative;">
+    <footer class="footer2" style="padding-left: 50px; padding-right: 50px; position: relative;">
         <p>2023 SeaReal. All rights reserved.</p>
         <ul>
             <li><a href="/private-policy">Private Policy</a></li>
